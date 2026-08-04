@@ -1,0 +1,62 @@
+[
+  {
+    "id": "p1",
+    "nombre": "Audífonos Bluetooth TWS",
+    "categoria": "Tecnología",
+    "precio": 89900,
+    "costo_proveedor": 32000,
+    "flete_ida": 8500,
+    "flete_retorno": 3200,
+    "cpa": 12400,
+    "tasa_entrega": 78,
+    "descripcion": "Audífonos inalámbricos con estuche de carga, cancelación de ruido pasiva, resistentes al sudor."
+  },
+  {
+    "id": "p2",
+    "nombre": "Faja Moldeadora Colombiana",
+    "categoria": "Moda",
+    "precio": 79900,
+    "costo_proveedor": 28000,
+    "flete_ida": 8000,
+    "flete_retorno": 3000,
+    "cpa": 15800,
+    "tasa_entrega": 70,
+    "descripcion": "Faja moldeadora de compresión media, control de abdomen, tela transpirable."
+  },
+  {
+    "id": "p3",
+    "nombre": "Crema Anti-edad Facial",
+    "categoria": "Belleza",
+    "precio": 69900,
+    "costo_proveedor": 26000,
+    "flete_ida": 7800,
+    "flete_retorno": 4500,
+    "cpa": 21000,
+    "tasa_entrega": 58,
+    "descripcion": "Crema facial con retinol y ácido hialurónico, reduce líneas de expresión."
+  },
+  {
+    "id": "p4",
+    "nombre": "Smartwatch Serie X",
+    "categoria": "Tecnología",
+    "precio": 129900,
+    "costo_proveedor": 48000,
+    "flete_ida": 9000,
+    "flete_retorno": 3500,
+    "cpa": 18200,
+    "tasa_entrega": 74,
+    "descripcion": "Reloj inteligente con monitor de ritmo cardiaco, notificaciones y GPS."
+  },
+  {
+    "id": "p5",
+    "nombre": "Mini Parlante Portátil",
+    "categoria": "Tecnología",
+    "precio": 59900,
+    "costo_proveedor": 19000,
+    "flete_ida": 7000,
+    "flete_retorno": 2800,
+    "cpa": 17000,
+    "tasa_entrega": 65,
+    "descripcion": "Parlante bluetooth resistente al agua, 8 horas de batería, sonido 360 grados."
+  }
+]
