@@ -1,0 +1,11 @@
+[
+  {"id": "v1", "producto_id": "p1", "fecha": "2026-07-05", "unidades": 3, "valor": 269700},
+  {"id": "v2", "producto_id": "p1", "fecha": "2026-07-12", "unidades": 2, "valor": 179800},
+  {"id": "v3", "producto_id": "p2", "fecha": "2026-07-08", "unidades": 4, "valor": 319600},
+  {"id": "v4", "producto_id": "p3", "fecha": "2026-07-10", "unidades": 1, "valor": 69900},
+  {"id": "v5", "producto_id": "p3", "fecha": "2026-07-20", "unidades": 2, "valor": 139800},
+  {"id": "v6", "producto_id": "p4", "fecha": "2026-07-15", "unidades": 2, "valor": 259800},
+  {"id": "v7", "producto_id": "p5", "fecha": "2026-07-18", "unidades": 5, "valor": 299500},
+  {"id": "v8", "producto_id": "p1", "fecha": "2026-07-25", "unidades": 4, "valor": 359600},
+  {"id": "v9", "producto_id": "p5", "fecha": "2026-07-27", "unidades": 3, "valor": 179700}
+]
