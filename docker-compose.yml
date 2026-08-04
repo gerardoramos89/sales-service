@@ -1,0 +1,39 @@
+version: "3.9"
+
+services:
+  sales-service:
+    build: ./services/sales-service
+    ports:
+      - "8001:8001"
+    networks:
+      - backend
+
+  analytics-service:
+    build: ./services/analytics-service
+    environment:
+      - SALES_SERVICE_URL=http://sales-service:8001
+    ports:
+      - "8002:8002"
+    depends_on:
+      - sales-service
+    networks:
+      - backend
+
+  agent-gateway:
+    build: ./services/agent-gateway
+    environment:
+      - AGENT_MODE=${AGENT_MODE:-real}
+      - SALES_SERVICE_URL=http://sales-service:8001
+      - ANALYTICS_SERVICE_URL=http://analytics-service:8002
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    ports:
+      - "8000:8000"
+    depends_on:
+      - sales-service
+      - analytics-service
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
